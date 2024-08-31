@@ -51,6 +51,6 @@ int main()
     char dest[] = "uslufatma";
     char src[] = "talha";
 
-    printf("%d , %s",ft_strlcpy(dest,src,3),dest);
+    printf("%d , %s",ft_strlcpy(dest,src,sizeof(dest)),dest);
     return 0;
 }
