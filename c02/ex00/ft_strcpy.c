@@ -29,12 +29,12 @@ char *ft_strcpy(char *dest, char *src)
 #include <stdio.h>
 int main()
 {
-    char busra[] = "fatma";
-    char alp[] = "uslutalha";
+    char dest[] = "fatma";
+    char src[] = "uslutalha";
 
-    printf("%s \n",busra);
-    ft_strcpy(busra,alp);
-    printf("%s",busra);
+    printf("%s \n",dest);
+    ft_strcpy(dest,src);
+    printf("%s",dest);
 
     return 0;
 
