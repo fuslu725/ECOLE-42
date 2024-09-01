@@ -33,7 +33,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
 #include <stdio.h>
 int main()
 {
-    char dest[] = "fatmatalha"; //uslu \0 \0 \0 talha
+    char dest[] = "fatmatalha"; 
     char src[] = "uslu";
 
     printf("%s \n",dest);
