@@ -54,5 +54,5 @@ int main ()
 {
     char dest[15] = "fillerguzel";
     char src[] = "dirdegil";
-    printf("%d\n %s\n", ft_strlcat(dest, src, sizeof(dest)),dest);
+    printf("%d\n%s\n", ft_strlcat(dest, src, sizeof(dest)),dest);
 }	
