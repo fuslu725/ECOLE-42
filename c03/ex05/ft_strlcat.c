@@ -52,7 +52,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 #include <stdio.h>
 int main ()
 {
-    char dest[] = "fillerguzel";
+    char dest[15] = "fillerguzel";
     char src[] = "dirdegil";
     printf("%i \n", ft_strlcat(dest, src, sizeof(dest)));
     printf("%s \n", dest);
