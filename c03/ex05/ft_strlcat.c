@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -50,7 +49,8 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	return (dlen + slen);
 }
 
-int main (void)
+#include <stdio.h>
+int main ()
 {
     char dest[] = "fillerguzel";
     char src[] = "dirdegil";
